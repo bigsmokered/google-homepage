@@ -87,6 +87,10 @@ div {
     padding-right: 28px;
   }
 
+  .searchbarbox:hover {
+    box-shadow: 0px 1px 5px 1px #dddddd;
+  }
+
   .glass{
     background-image: url(https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png);
     height: 20px;
@@ -144,7 +148,7 @@ div {
 
   }
 
-  .button{
+   .button{
     text-decoration: none !important;
     text-align: center;
     padding: 12px;
@@ -159,6 +163,14 @@ div {
     padding-right: 16px;
     line-height: 10px;
     display: inline-block;
+  }
+
+  .button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color:#f8f8f8;
+    border: 1px solid#c6c6c6;
+    color:#222;
   }
 
   .footer{
